@@ -8,7 +8,7 @@ import MultipleDomain from "../components/Domain/MultipleDomain.js";
 import { useNavigate } from "react-router-dom";
 import DomainNavbar from "../page/DomainNavbar.js";
 
-const URL = "http://localhost:8080";
+const URL = "https://dns-manager-deploy.onrender.com";
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -53,7 +53,7 @@ const Dashboard = () => {
 
     try {
       const { data } = await axios.get(
-        `http://localhost:8080/api/v1/domain/all`,{
+        `https://dns-manager-deploy.onrender.com/api/v1/domain/all`,{
 
         headers: {
           Authorization: `Bearer ${token}`,
@@ -78,7 +78,7 @@ const Dashboard = () => {
 
     if (token) {
       axios
-        .post("http://localhost:8080/api/v1/users/verify", null, {
+        .post("https://dns-manager-deploy.onrender.com/api/v1/users/verify", null, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

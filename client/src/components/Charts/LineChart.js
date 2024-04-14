@@ -15,7 +15,7 @@ function LineChart() {
     const fetchData = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:8080/api/v1/domain/all`,{
+          `https://dns-manager-deploy.onrender.com/api/v1/domain/all`,{
 
           headers: {
             Authorization: `Bearer ${token}`,

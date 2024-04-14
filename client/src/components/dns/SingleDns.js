@@ -5,7 +5,7 @@ import csvtojson from "csvtojson";
 import Navbar from "../../page/Navbar";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-const URL = "http://localhost:8080/api/v1";
+const URL = "https://dns-manager-deploy.onrender.com/api/v1";
 
 const SingleDns = () => {
 

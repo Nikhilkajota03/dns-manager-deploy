@@ -7,7 +7,7 @@ import csvtojson from "csvtojson";
 import MultipleDns from "../components/dns/MultipleDns.js";
 import SingleDns from "../components/dns/SingleDns.js";
 import UpdateForm from "../components/dns/UpdateForm.js";
-const URL = "http://localhost:8080/api/v1";
+const URL = "https://dns-manager-deploy.onrender.com/api/v1";
 
 function DnsManager() {
   const [showSingleeDom, setShowSingleDom] = useState(false);

@@ -11,7 +11,7 @@ const PrivateRoute = () => {
     if (token) {
       axios
         .post(
-          "http://localhost:8080/api/v1/users/verify",
+          "https://dns-manager-deploy.onrender.com/api/v1/users/verify",
           null,
           {
             headers: {

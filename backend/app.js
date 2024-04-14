@@ -14,7 +14,7 @@ const app = express.Router();
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://dns-manager-deploy.onrender.com",
     method: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })

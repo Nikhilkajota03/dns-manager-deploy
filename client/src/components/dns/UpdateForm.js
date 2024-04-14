@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { CloseCircleOutlined } from "@ant-design/icons";
 import axios from "axios";
 import { message } from "antd";
-const URL = "http://localhost:8080/api/v1";
+const URL = "https://dns-manager-deploy.onrender.com/api/v1";
 
 function UpdateForm({ updateDNSRecords, setOpenForm, openForm , hostedZoneId,fetchData}) {
   console.log(updateDNSRecords.ResourceRecords[0].Value);

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { message } from "antd";
 import { useNavigate } from "react-router-dom";
-const URL = "http://localhost:8080";
+const URL = "https://dns-manager-deploy.onrender.com";
 
 const Signup = () => {
   const navigate = useNavigate();

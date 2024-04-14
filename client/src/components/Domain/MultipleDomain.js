@@ -4,7 +4,7 @@ import { message, Modal } from "antd";
 import csvtojson from "csvtojson";
 import DomainNavbar from "../../page/DomainNavbar";
 import { useNavigate } from "react-router-dom";
-const URL = "http://localhost:8080";
+const URL = "https://dns-manager-deploy.onrender.com";
 
 function MultipleDomain() {
 
