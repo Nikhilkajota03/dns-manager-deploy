@@ -1,4 +1,4 @@
-# User Management System (MERN Stack)
+# dns-manager-application (MERN Stack)
 
 ## LIVE LINK 
     
