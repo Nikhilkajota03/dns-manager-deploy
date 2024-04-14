@@ -29,36 +29,32 @@ To run the Employee Management System on your local machine, follow these steps:
    git clone 
    ```
 
-2. Navigate to the project directory:
 
-   ```bash
-   cd employee-management
-   ```
 
-3. Install server-side dependencies:
+2. Install server-side dependencies:
 
    ```bash
    cd server
    npm install
    ```
 
-4. Install client-side dependencies:
+3. Install client-side dependencies:
 
    ```bash
    cd ../client
    npm install
    ```
 
-5. Start the MongoDB server on your local machine.
+4. Start the MongoDB server on your local machine.
 
-6. Start the backend server:
+5. Start the backend server:
 
    ```bash
    cd ../server
    nodemon index.js
    ```
 
-7. Start the frontend application:
+6. Start the frontend application:
 
    ```bash
    cd ../client
